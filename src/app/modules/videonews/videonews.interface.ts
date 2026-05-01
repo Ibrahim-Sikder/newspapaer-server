@@ -1,0 +1,34 @@
+import { Types } from 'mongoose';
+
+export type TVideoNews = {
+  reporterName: string;
+  reporterType: string;
+  reportedDate: Date;
+  newsType: string;
+  division: string;
+  district: string;
+  upazila: string;
+  internationalArea: string;
+  displayLocation: string;
+  images: string[];
+  photojournalistName: string;
+  category: Types.ObjectId;
+  newsCategory: string;
+  newsTitle: string;
+  slug: string;
+  shortDescription: string;
+  description: string;
+  imageTagline: string;
+  currentNews: boolean;
+  adminName: string;
+  postDate: Date;
+  newsTag: string;
+  publishedDate: Date;
+  videoUrl: string;
+  videioJornalistName: string;
+  newsTagLine: string;
+  publishedNews:boolean;
+  metaTitle: string;
+  metaKeywords: string[];
+  metaDescription: string;
+};
